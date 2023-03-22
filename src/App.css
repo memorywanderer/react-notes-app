@@ -1,0 +1,61 @@
+.notes {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: .5em;
+}
+
+p {
+  margin-bottom: 0.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--c-typography-primary);
+}
+
+.btn {
+  padding: .35em .5em;
+  border-radius: .25em;
+  background-color: var(--c-accent);
+  color: var(--c-typography-primary);
+}
+
+.btn--secondary {
+  background-color: var(--c-background-tretiary);
+  color: var(--c-typography-primary);
+}
+
+.btn--danger {
+  background-color: var(--c-danger);
+  color: var(--c-typography-primary);
+}
+
+.btn--danger-outline {
+  background-color: var(--c-background-secondary);
+  border: .05em solid var(--c-danger);
+  color: var(--c-typography-primary);
+}
+
+.title {
+  font-size: 1.5em;
+  line-height: 1;
+}
+
+.title:not(:last-child) {
+  margin-bottom: .75em;
+}
+
+.badge {
+  font-size: .75em;
+  display: flex;
+  padding: .25em;
+  white-space: nowrap;
+  border-radius: 0.45em;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--c-accent);
+  color: var(--c-typography-primary)
+}

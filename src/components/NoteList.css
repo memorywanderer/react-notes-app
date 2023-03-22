@@ -1,0 +1,84 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.list__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: .5em;
+}
+
+.list__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.list__form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: space-between;
+  padding: .75em;
+  border-radius: .45em;
+  background-color: var(--c-background-secondary);
+  color: var(--c-typography-secondary);
+}
+
+.list__notes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: .75em;
+  border-radius: .45em;
+  background-color: var(--c-background-secondary);
+  color: var(--c-typography-secondary);
+}
+
+.card {
+  padding: .45em;
+  font-size: 1em;
+  border-radius: .45em;
+  background-color: var(--c-background-tretiary);
+  color: var(--c-typography-primary)
+}
+
+.card:hover {
+  background-color: var(--c-background-secondary);
+}
+
+.card__body {
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+}
+
+.card__tags {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .25em;
+}
+
+.modal__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form__tags {
+  display: grid;
+  row-gap: .75em;
+  padding: .25em;
+  overflow-y: auto;
+  max-height: 25em;
+}
+
+.form__tag {
+  display: grid;
+}

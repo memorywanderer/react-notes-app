@@ -1,0 +1,53 @@
+:root {
+  --c-background-primary: #0d0d0d;
+  --c-background-secondary: #1c1c1e;
+  --c-background-tretiary: #3a3a3c;
+  --c-typography-primary: #f1f1f5;
+  --c-typography-secondary: #a1a1a6;
+  --c-accent: #007aff;
+  --c-danger: #ff4136;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.25em;
+  background-color: var(--c-background-primary);
+  color: var(--c-typography-primary);
+  font-weight: 700;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: .85em;
+}
+
+@media screen and (max-width: 476px) {
+  .title:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .form__label {
+    width: 100%;
+  }
+
+  .form__input {
+    width: 100%;
+  }
+}

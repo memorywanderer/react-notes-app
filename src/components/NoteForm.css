@@ -1,0 +1,66 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  max-width: 1200px;
+  padding: .75em;
+  border-radius: .45em;
+  background-color: var(--c-background-secondary);
+  color: var(--c-typography-secondary);
+}
+
+.form__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.form__label {
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+}
+
+.form__input,
+.form__textarea {
+  outline: none;
+  border: .05em solid var(--c-background-primary);
+  border-radius: 0.55em;
+  font-size: .75em;
+  font-weight: 600;
+  line-height: 1;
+  background-color: var(--c-background-primary);
+  color: var(--c-typography-primary);
+}
+
+.form__select {
+  max-width: 22em;
+  min-width: 12em;
+  color: #fff;
+}
+
+.form__input {
+  padding: 0.5em 0.35em;
+  min-height: 2.5em;
+}
+
+.form__textarea {
+  padding: 1em;
+  font-size: 1em;
+}
+
+.form__input:focus,
+.form__input:hover,
+.form__textarea:focus,
+.form__textarea:hover {
+  border: .05em solid var(--c-accent);
+}
+
+.form__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: .5em;
+}

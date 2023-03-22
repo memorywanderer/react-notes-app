@@ -1,0 +1,21 @@
+.note {
+  display: grid;
+  row-gap: 1em;
+}
+
+.note__tags {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, auto));
+  column-gap: .45em;
+  align-items: center;
+  max-width: 512px;
+}
+
+.note__body {
+  padding: .75em;
+  border-radius: .45em;
+  font-size: 0.95em;
+  font-weight: 500;
+  background-color: var(--c-background-secondary);
+  color: var(--c-typography-primary);
+}
